@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+ Theme Name:    dealer-child
+ Theme URI:      http:/contractcars.com/wp-content/themes/dealership-child/
+ Description:    Dealer Theme Child
+ Author:         Gareth Healey
+ Template:       dealership-deluxe
+ Author URI:     http://www.bigmediapresence.com
+ Template:       dealership-child
+ Version:        1.0.0
+*/
+ 
+@import url("../dealership-deluxe/style.css");
+@import url("typography-child.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+body {
+   background-color: #FFF;
+   background-image: url('images/header_bg2.jpg');
+   background-repeat: repeat-x;
+   background-position: 0 -17px;
+}
+
+#container {
+  box-shadow: none;	
+}
+
+.header {
+    border-top: 0px none #777;
+}
+
+#container .header .hide-for-small {
+   background-image: url('images/header_bg2.jpg');
+   background-repeat: repeat-x;
+   background-position: 0 -17px;
+
+}
+
+
+.nav-panel {
+	background-color: #99076d!important;
+}
+
+#slides {
+	border: 0 none #fff;
+}
+
+.right-block h3 {
+   background-color: #99076d;
+}
+
+.home .search-form-wrapper {
+   background-color: #88c415;
+   height: 100%;
+   box-sizing: border-box;
+   padding: 20px;
+}
+
+.home .search-form-wrapper .wpcf7-form-control {
+	background-color: #88c415;
+	border: 2px solid #445b12;
+	width: auto;
+	box-sizing: border-box;
+	padding: 5px;
+	color: #dbf998;
+	font-weight: bold;
+	width: 95%;
+}
+.home .search-form-wrapper input[placeholder] {
+    color: #dbf998!important;
+}
+
+.home .search-form-wrapper .wpcf7-submit {
+	background-color: #fff;
+	border: 0 none #88c415;
+	padding: 10px;
+	color: #445b12;
+	border-radius: 5px;
+}
+
+.home .search-form-wrapper .wpcf7-submit:hover {
+    cursor: pointer;
+}
+
+
+.tricol-product-list li .detail-btn {
+    background-color: #99076d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #f3cde8;
+    font-style: italic;
+}
+
+.tricol-product-list li .detail-btn:hover {
+    background-color: #88c415;
+}
+
+.main-nav li.current-menu-item, .main-nav li:hover,
+.main-nav li.current-menu-item a, .main-nav li:hover a {
+	background: #4f0639;
+}
+
+@media only screen 
+and (min-device-width : 900px) { /* Begin desktop styles */
+	.logo {
+	   margin: 1em 0;
+	}
+	
+	#header-wrapper {
+       position: relative!important;
+	}
+	
+	#tel_no {
+       position: absolute;
+	   color: #000;
+	   top: 15px;
+       right: 15px;
+	   z-index: 1000;
+	   width: 400px;
+	   height: 80px;
+	   display: block;
+	   font-size: 28px;
+	   font-family: 'Lato', sans-serif;
+	   font-weight: 200;
+	   text-align: right;
+	   padding: 0; margin: 0;
+	   line-height: 100%;
+	}
+	
+	#tel_no span {
+		font-size: 18px;
+		line-height: 100%;
+		padding: 0; margin: 0;
+	}
+
+    .tricol-product-list li.new-arrivals-list {
+        height: 300px!important;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+        overflow: hidden;
+	} 
+
+	.arrivals-details {
+		margin-left: 20px;
+	}
+
+	.tricol-product-list li.new-arrivals-list:hover {
+	    border: 2px solid #ccc;
+        box-sizing: border-box;
+        box-shadow:  none;
+	}
+	
+	.tricol-product-list li .detail-btn,
+	.tricol-product-list li a.detail-btn:hover {
+        font-size: 14px;
+        width: 80px!important;
+        border-radius: 5px;
+		margin-top: 5px;
+	}
+	.home .search-form-wrapper .make {
+	    margin-top: 10px;	
+	}
+	.home .search-form-wrapper .wpcf7-submit {
+	   font-size: 1em;
+	}
+	
+	.side-nav .cat-item {
+	   line-height: 100%;
+	   padding: 0;
+	   margin: 0;
+	}
+}
+
+/* end desktop styles */

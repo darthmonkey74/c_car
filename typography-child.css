@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.tricol-product-list strong,
+.meta-style,
+.price-style,
+body .right-white-block .deal-rates li p.vehicle-name,
+.main-nav li
+ {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+
+}
+
+body .right-white-block .deal-rates li p.vehicle-name,
+.right-white-block .deal-rates li p.vehicle-info .price,
+.right-white-block .deal-rates li p.vehicle-info {
+   font-family: 'Lato', sans-serif!important;
+}
+
+.search-form-wrapper {
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 150%;
+   text-align: center;
+   color: #fff;
+}
+
+
+.arrivals-details strong,
+.right-white-block .deal-rates li p.vehicle-name {
+   font-weight: 700!important;
+   font-style: italic!important;
+}
+
+.price-style {
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #88c415!important;
+}
+
+#sidebar .price {
+  font-weight: 900!important;
+  font-size: 1.3em!important;
+  color: #f08f00;
+}
+
+.side-nav .cat-item a {
+	font-size: 11px;
+	line-height: 100%;
+}
