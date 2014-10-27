@@ -18,6 +18,13 @@
 ------------------------------------------------------- */
 
 
+
+/* light grey: #cccccc;
+dark grey: #212121;
+orange: #f08f00;
+green: #88c415;
+*/
+
 body {
    background-color: #FFF;
    background-image: url('images/header_bg2.jpg');
@@ -62,7 +69,7 @@ body {
 
 .home .search-form-wrapper .wpcf7-form-control {
 	background-color: #88c415;
-	border: 2px solid #445b12;
+	border: 1px solid #445b12;
 	width: auto;
 	box-sizing: border-box;
 	padding: 5px;
@@ -86,7 +93,6 @@ body {
     cursor: pointer;
 }
 
-
 .tricol-product-list li .detail-btn {
     background-color: #99076d;
     font-family: 'Lato', sans-serif;
@@ -104,10 +110,118 @@ body {
 	background: #4f0639;
 }
 
+.tabcontent {
+	color: #000;
+}
+
+#secondary .responsive-tabs .responsive-tabs__panel {
+	border-width: 3px;
+}
+
+#secondary .responsive-tabs .responsive-tabs__list__item {
+	border-top-width: 3px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+}
+
+#secondary .responsive-tabs .responsive-tabs__list__item--active,
+#secondary .responsive-tabs .responsive-tabs__list__item--active:hover {
+	top: 3px;
+}
+
+
+.footer-wrapper {
+	background-color: #252525;
+}
+
+
+#footer {
+	background-color: inherit;
+	color: #cccccc;
+	box-shadow: 0 0 0 #212121 !important;
+}
+
+#footer .footer_widget {
+	margin-bottom: 20px;
+}
+	#footer .footer_widget {
+     margin-top: 20px;
+	 margin-bottom: 20px;
+	 display: block;
+	 clear: both;
+	 float: left;
+	 padding: 15px;
+}
+	
+.widget_ns_mailchimp input {
+	border: none;
+	background-color: #666666;
+	padding: 5px;
+	float: right;
+}
+
+.widget_ns_mailchimp label {
+	margin: 10px 0;
+	float: left;
+	width: 100%;
+}
+
+.widget_ns_mailchimp #ns_widget_mailchimp-email-2 {
+	margin-top: -35px;
+}
+
+.widget_ns_mailchimp .button {
+	clear: both;
+	background-color: #f08f00;
+	box-shadow: 0 0 0 #212121 inset;
+}
+
+.wpcf7-form .wpcf7-submit {
+	background-color: #f08f00;
+	padding: 8px 20px 9px;
+	color: #fff;
+	border: 0 none #f08f00;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.15s ease-in-out 0s;
+    width: auto;
+}
+.wpcf7-form .wpcf7-submit:hover {
+	background-color: #2284al;
+}
+
+.wpcf7-form label {
+    margin-bottom: 10px;	
+}
+
+.bottom-bar-wrapper {
+   background-color: #000;
+}
+
+#footer .wpcf7-text {
+	background-color: #666666;
+	padding: 5px;
+	border: 0 none #cccccc;
+}
+
 @media only screen 
 and (min-device-width : 900px) { /* Begin desktop styles */
 	.logo {
 	   margin: 1em 0;
+	}
+	
+	#secondary .tabcontent {
+	    box-sizing: border-box;
+		padding: 1em;
+		width: 97%;
 	}
 	
 	#header-wrapper {
@@ -172,6 +286,42 @@ and (min-device-width : 900px) { /* Begin desktop styles */
 	   line-height: 100%;
 	   padding: 0;
 	   margin: 0;
+	}
+	
+	.footer-wrapper #menu-menu-3 {
+		width: 960px;
+		margin: 0 auto;
+	}
+	
+	.footer-wrapper .nav-panel {
+	  background-color: #000!important;
+	  padding: 5px;
+	}
+	
+}
+
+
+@media all and (min-width: 560px) { /* large mobile */
+    #footer .footer_widget {
+	  width: 30%;
+	  clear: none;
+	  float: left;
+   }
+   
+    #footer .footer_widget.widget_text {
+	  float: right;
+	  margin-right: 0;
+	}
+	
+	.footer-wrapper {
+	  left: 0;
+	  position:static;
+	  width: 100%;
+	}
+	
+	.footer_widget.widget_nav_menu {
+		position: relative;
+		left: 50px;
 	}
 }
 

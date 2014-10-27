@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* light grey: #cccccc;
+dark grey: #212121;
+orange: #f08f00;
+green: #88c415;
+*/
 
 body {
 
@@ -56,4 +61,46 @@ body .right-white-block .deal-rates li p.vehicle-name,
 .side-nav .cat-item a {
 	font-size: 11px;
 	line-height: 100%;
+}
+
+h3 {
+	 font-family: 'Lato', sans-serif!important;
+}
+
+.home .tabcontent h3 {
+	color: #99076d;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.home .tabcontent strong {
+	margin-bottom: 5px;
+}
+
+.home .tabcontent p,
+.home .tabcontent ol {
+	font-style: normal;
+    line-height: 170%;
+	font-size: 12px;
+}
+
+.home .tabcontent ol {
+	padding-left: 20px;
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+
+#footer .footer_widget,
+#footer .footer_widget a,
+#footer .footer_widget label {
+  color: #cccccc;
+  line-height: 180%	
+}
+
+#footer .footer_widget h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 10px;
 }
